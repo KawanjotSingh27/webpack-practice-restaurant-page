@@ -1,0 +1,44 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+
+nav button{
+    width:250px;
+    height:60px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+}
+
+body > div{
+    background-color: #e6e07e;
+    margin-top:50px;
+    margin-right:200px;
+    margin-left:200px;
+    margin-bottom:50px;
+    padding:50px;
+}
+
+#content > div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+}
+
+p{
+    font-size: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+}
